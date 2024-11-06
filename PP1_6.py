@@ -7,10 +7,10 @@
 
 # From input, recieve two integers from the user and add them together.  Output the result.
 def q1():
-  num1 = int(input("Input a number: "))
-  num2 = int(input("Input a number: "))
+  num1 = float(input("Input a number: "))
+  num2 = float(input("Input another number: "))
   
-  print(num1 + num2)
+  print (int(num1 + num2))
 
 # From input recieve two integers.  Output the quotient rounded down.
 
@@ -29,8 +29,8 @@ def q3():
 # Output their result multiplied together.  Then round down to the nearest whole number
 
 def q4():
-  num1 = (input("Input a number: "))
-  num2 = (input("Input a number: "))
+  num1 = float(input("Input a number: "))
+  num2 = float(input("Input a number: "))
   
   print (int(num1 * num2 ))
 
